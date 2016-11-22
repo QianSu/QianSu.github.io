@@ -1,10 +1,12 @@
 ---
 layout: home
 ---
-# About Theme
+# 关于我
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+我是来自安徽的一个前端开发人员,我在[ESSENCE](http://www.essenceimc.com/)工作.
 
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
+我目前住在上海,我对技术和设计的热爱使网络成为我理想的运动场。
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+这是我的网上家园和博客,主要分享我前端开发路上的故事。
+
+如果你有问题，或者你想联系我，请发送邮件给我401097366@qq.com。
