@@ -1,9 +1,9 @@
 # Site
-title: Halve
+title: QianSu
 description: Stylish, Two-Column Jekyll Theme
 url: https://qiansu.github.io/
 logo: halve.png                                       # Site logo
-locale: en_US
+locale: "中国——上海"
 
 # Left Block Images
 background:
