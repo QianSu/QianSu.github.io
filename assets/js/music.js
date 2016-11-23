@@ -1,16 +1,16 @@
-/* * 
+/* *
  * audio visualizer with html5 audio element
  *
  * v0.1.0
- * 
+ *
  * licenced under the MIT license
- * 
+ *
  * see my related repos:
  * - HTML5_Audio_Visualizer https://github.com/wayou/HTML5_Audio_Visualizer
  * - 3D_Audio_Spectrum_VIsualizer https://github.com/wayou/3D_Audio_Spectrum_VIsualizer
  * - selected https://github.com/wayou/selected
  * - MeowmeowPlayer https://github.com/wayou/MeowmeowPlayer
- * 
+ *
  * reference: http://www.patrick-wied.at/blog/how-to-create-audio-visualizations-with-javascript-html
  */
 
@@ -18,6 +18,7 @@ window.AudioContext = window.AudioContext || window.webkitAudioContext || window
 
 window.onload = function() {
     var audio = document.getElementById('audio');
+  var music=document.getElementById('music');
     try {
         var ctx = new AudioContext();
     } catch (e) {
@@ -27,7 +28,7 @@ window.onload = function() {
     //创建获取频谱能量值的analyser节点。
     var audioSrc = ctx.createMediaElementSource(audio);
     var analyser = ctx.createAnalyser();
-    // we have to connect the MediaElementSource with the analyser 
+    // we have to connect the MediaElementSource with the analyser
     audioSrc.connect(analyser);
     analyser.connect(ctx.destination);
     // we could configure the analyser: e.g. analyser.fftSize (for further infos read the spec)
@@ -42,17 +43,17 @@ window.onload = function() {
         meterWidth = 10, //width of the meters in the spectrum
         gap = 2, //gap between meters
         capHeight = 2,
-        capStyle = '#fff',
+        capStyle = '#BE0B0B',
         meterNum = 800 / (10 + 2), //count of the meters
         capYPositionArray = []; ////store the vertical position of hte caps for the preivous frame
     ctx = canvas.getContext('2d'),
-    gradient = ctx.createLinearGradient(0, 0, 0, 300);
-    // gradient.addColorStop(1, '#0f0');
-    // gradient.addColorStop(0.5, '#ff0');
-    // gradient.addColorStop(0, '#f00');
-    gradient.addColorStop(1, 'lightpink');
-    gradient.addColorStop(1, 'lightgreen');
-    gradient.addColorStop(1, 'lightblue');
+      gradient = ctx.createLinearGradient(0, 0, 0, 300);
+     gradient.addColorStop(1, '#0f0');
+     gradient.addColorStop(0.5, '#ff0');
+     gradient.addColorStop(0, '#f00');
+    //gradient.addColorStop(1, 'lightpink');
+    //gradient.addColorStop(0.5, 'lightgreen');
+    //gradient.addColorStop(0, 'lightblue');
     // loop
     function renderFrame() {
         var array = new Uint8Array(analyser.frequencyBinCount);
@@ -79,4 +80,14 @@ window.onload = function() {
     }
     renderFrame();
     // audio.play();
+  //音乐播放控制
+  var flag=true;
+  music.onclick=function(){
+    if(flag){
+      audio.play();
+      flag=false;
+    }else{
+      audio.pause();
+    }
+  }
 };
