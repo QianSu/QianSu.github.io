@@ -38,8 +38,6 @@ window.onload = function() {
 
     // we're ready to receive some data!
     var canvas = document.getElementById('canvas'),
-        canvas.width=50%;
-        canvas.heigh=50%;
         cwidth = canvas.width,
         cheight = canvas.height - 2,
         meterWidth = 10, //width of the meters in the spectrum
@@ -87,10 +85,25 @@ window.onload = function() {
   music.onclick=function(){
     if(flag){
       audio.play();
+      addClass(music,on);
       flag=false;
     }else{
       audio.pause();
       flag=true;
+      removeClass(music,on);
     }
   }
+  function hasClass( elements,cName ){
+    return !!elements.className.match( new RegExp( "(\\s|^)" + cName + "(\\s|$)") );
+  };
+  function addClass( elements,cName ){
+    if( !hasClass( elements,cName ) ){
+      elements.className += " " + cName;
+    };
+  };
+  function removeClass( elements,cName ){
+    if( hasClass( elements,cName ) ){
+      elements.className = elements.className.replace( new RegExp( "(\\s|^)" + cName + "(\\s|$)" ), " " );
+    };
+  };
 };

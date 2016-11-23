@@ -871,7 +871,10 @@ canvas {
 }
 //音乐播放
 
-#music{position: absolute;z-index: 10;left: 1rem;top: 1rem;-webkit-animation: rotating 1.2s linear infinite;animation: rotating 1.2s linear infinite;}
+#music{position: absolute;z-index: 10;left: 1rem;top: 1rem;}
+.on{
+  -webkit-animation: rotating 1.2s linear infinite;animation: rotating 1.2s linear infinite;
+}
 
 @-webkit-keyframes rotating {
   from{
@@ -909,6 +912,6 @@ canvas {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 50%;
+  width: 100%;
   height: 50%;
 }
