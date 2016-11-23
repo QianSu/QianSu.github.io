@@ -88,6 +88,7 @@ window.onload = function() {
       flag=false;
     }else{
       audio.pause();
+      flag=true;
     }
   }
 };
