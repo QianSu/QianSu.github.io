@@ -38,6 +38,8 @@ window.onload = function() {
 
     // we're ready to receive some data!
     var canvas = document.getElementById('canvas'),
+        canvas.width=50%;
+        canvas.heigh=50%;
         cwidth = canvas.width,
         cheight = canvas.height - 2,
         meterWidth = 10, //width of the meters in the spectrum
