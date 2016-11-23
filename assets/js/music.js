@@ -81,11 +81,14 @@ window.onload = function() {
     renderFrame();
     // audio.play();
   //音乐播放控制
-  var flag=true;
+  var flag=false;
   music.onclick=function(){
     if(flag){
       audio.play();
-      addClass(music,'on');
+      if(!hasClass(music,'on')){
+        addClass(music,'on');
+      }
+
       flag=false;
     }else{
       audio.pause();
