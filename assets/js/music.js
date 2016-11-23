@@ -85,12 +85,12 @@ window.onload = function() {
   music.onclick=function(){
     if(flag){
       audio.play();
-      addClass(music,on);
+      addClass(music,'on');
       flag=false;
     }else{
       audio.pause();
       flag=true;
-      removeClass(music,on);
+      removeClass(music,'on');
     }
   }
   function hasClass( elements,cName ){
