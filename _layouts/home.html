@@ -21,8 +21,17 @@ layout: compress
       </div>
     </div>
     <canvas></canvas>
+    <!--音乐律动-->
+    <div class="kePublic" style="background: red;">
+      <!--效果html开始-->
+      <canvas id="canvas" width="800" height="350"></canvas>
+      <br>
+      <br>
+      <audio src="{{ site.url }}/images/suqian.mp3" autoplay="autoplay" id="audio" controls="" loop="">audio element not supported</audio>
+      <div class="clear"></div>
+    </div>
   </div>
-
+<!--结束-->
   <div class="block-right">
     <a href="{{ site.url }}/posts" title="posts" class="posts-menu-icon"></a>
     <span class="posts-link">POSTS</span>
@@ -39,5 +48,6 @@ layout: compress
   {% include overlay.html %}
   {% include scripts.html %}
   <script src="{{ site.url }}/assets/js/canvas.js"></script>
+  <script  src="{{ site.url }}/assets/js/music.js"></script>
 </body>
 </html>

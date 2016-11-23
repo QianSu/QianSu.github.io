@@ -12,6 +12,7 @@ background:
   default-post: images/unsplash-gallery-image-3.jpg   # this image will be shown when post's front matter doesn't specify any image
 
 # Jekyll
+
 permalink:          /:title/
 markdown:           kramdown
 highlighter:        rouge
@@ -31,9 +32,9 @@ sass:
 # Social Links
 #email:             email
 #google.plus:        username
-twitter:            username
+#twitter:            username
 #facebook:           username
-github:             username
+github:              QianSu
 stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
