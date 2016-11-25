@@ -1,7 +1,7 @@
-- title: Halve Jekyll Theme
-  url: http://taylantatli.me/Halve
-  image: http://taylantatli.me/Halve/images/halve-home-image.png
-  completed: false
+- title: 雅思兰黛-h5
+  url: http://htmlpreview.github.io/?https://github.com/QianSu/myProjects/blob/master/EsteeLauder/index.html
+  image: https://github.com/QianSu/QianSu.github.io/tree/master/images/yasilandai.png
+  completed: true
 
 - title: Moon Jekyll Theme
   url: http://taylantatli.me/Moon
