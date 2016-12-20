@@ -97,15 +97,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-12-20-vue.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016-12-20-vue.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2016-12-20-vue.md">
           <provider editor-type-id="MultiMarkdownFxPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.6326241">
+              <first_editor vertical-scroll-proportion="1.2595744">
                 <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-12-21-comonJs.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-12-21-comonJs.md">
+          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.10496454">
+                <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -133,6 +149,7 @@
       <list>
         <option value="$PROJECT_DIR$/_data/projects.yaml" />
         <option value="$PROJECT_DIR$/_posts/2016-12-20-vue.md" />
+        <option value="$PROJECT_DIR$/_posts/2016-12-21-comonJs.md" />
       </list>
     </option>
   </component>
@@ -144,8 +161,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="831" />
-    <option name="y" value="167" />
+    <option name="x" value="170" />
+    <option name="y" value="76" />
     <option name="width" value="1872" />
     <option name="height" value="926" />
   </component>
@@ -484,7 +501,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="831" y="167" width="1872" height="926" extended-state="0" />
+    <frame x="170" y="76" width="1872" height="926" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25915948" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -522,14 +539,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/_sass/vendor/fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/_sass/_syntax.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -910,8 +919,22 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.6326241">
+          <first_editor vertical-scroll-proportion="1.2595744">
             <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-12-21-comonJs.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.10496454">
+            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
